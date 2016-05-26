@@ -1,0 +1,4 @@
+include ':app'
+include ':lib_exoplayer'
+
+project(':lib_exoplayer').projectDir = new File( 'libraries/exoplayer' )
